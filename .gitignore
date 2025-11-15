@@ -47,6 +47,9 @@ web_modules/
 # TypeScript cache
 *.tsbuildinfo
 
+# Typescript build output
+/dist
+
 # Optional npm cache directory
 .npm
 
@@ -137,3 +140,9 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# OS generated files
+.DS_Store
+
+# Test Coverage
+/coverage
